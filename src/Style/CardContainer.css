@@ -1,0 +1,16 @@
+.cards-container {
+    min-height: 80%;
+    min-width: 80%;
+    border: black solid 1px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.filters-container {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

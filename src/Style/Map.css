@@ -1,0 +1,29 @@
+.map-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.map-container {
+    width: 500px;
+    height: 500px;
+}
+
+.lat-log-container {
+    height: 75px;
+    padding: 5px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
