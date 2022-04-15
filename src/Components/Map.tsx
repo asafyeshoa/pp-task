@@ -1,7 +1,7 @@
-import { useState, useRef } from "react";
-import geoJson from "../chicago-parks.json";
+import { useState } from "react";
 import ReactMapboxGl, { Layer, Feature } from "react-mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
+
 
 const MapView = ReactMapboxGl({
   accessToken:
@@ -38,7 +38,7 @@ export default function Map(props: {
         </div>
       </div>
       <MapView
-        style='mapbox://styles/mapbox/streets-v9'
+        style={'mapbox://styles/mapbox/streets-v9'}
         center={[lng, lat]}
         onMoveEnd={(...args) => console.log("MoveEnd", args)}
         onClick={onMapClick}
